@@ -1,0 +1,19 @@
+name: wbd_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pytorch
+  - pytorch-cuda=11.8 # Update this depending on your NVIDIA driver version
+  - numpy
+  - librosa
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+      - moviepy
+      - TextGrid

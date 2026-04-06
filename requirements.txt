@@ -1,0 +1,11 @@
+# Core Machine Learning & Data processing
+torch
+numpy
+scikit-learn
+scipy
+
+# Audio Processing, Video, and Visualizations
+librosa
+matplotlib
+moviepy
+TextGrid
